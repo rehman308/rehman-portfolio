@@ -15,6 +15,7 @@ import pingPong from "./projects/pingPong.png";
 import priceTier from "./projects/priceTier.png";
 import yelpCamp from "./projects/yelpCamp.jpg";
 import portfolio from "./projects/portfolio.png";
+import ticTacToe from "./projects/tic-tac-toe.png"
 
 // Robot Animations
 import robot_blank from "./robot/robot_blank.mp4";
@@ -92,9 +93,10 @@ export {
     hospitalMng,
     photoBlog,
     pingPong,
-    priceTier,
-    yelpCamp,
     portfolio,
+    priceTier,
+    ticTacToe,
+    yelpCamp,
 
     // Robot Animations
     robot_blank,

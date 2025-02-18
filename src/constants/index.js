@@ -28,9 +28,10 @@ import {
     hospitalMng,
     photoBlog,
     pingPong,
-    priceTier,
-    yelpCamp,
     portfolio,
+    priceTier,
+    ticTacToe,
+    yelpCamp,
 } from "../assets";
 
 // ===================== Navigation Links =====================
@@ -218,6 +219,31 @@ export const experiences = [
 // ===================== Projects =====================
 // Additional projects with descriptions
 export const projects = [
+    {
+        name: "Tic Tac Toe",
+        description:
+            "A Tic-Tac-Toe game built with React with realtime log for tracking moves.",
+        tags: [
+            {
+                name: "HTML",
+                color: "bg-[#F16529]",
+            },
+            {
+                name: "CSS",
+                color: "bg-[#2965F1]",
+            },
+            {
+                name: "JS",
+                color: "bg-[#F7DF1E] text-black",
+            },
+            {
+                name: "React",
+                color: "bg-[#00bbf9]",
+            },
+        ],
+        image: ticTacToe,
+        link: "https://github.com/rehman308/react-tic-tac-toe",
+    },
     {
         name: "Picture Blog",
         description:
