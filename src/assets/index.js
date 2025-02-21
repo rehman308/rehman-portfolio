@@ -10,6 +10,7 @@ import ecom from "./projects/ecom.png";
 import eventMng from "./projects/eventMng.png";
 import gasLeak from "./projects/gas-leak.png";
 import hospitalMng from "./projects/hospitalMng.png";
+import investmentCal from "./projects/investment-cal.png"
 import photoBlog from "./projects/photoBlog.png";
 import pingPong from "./projects/pingPong.png";
 import priceTier from "./projects/priceTier.png";
@@ -91,6 +92,7 @@ export {
     eventMng,
     gasLeak,
     hospitalMng,
+    investmentCal,
     photoBlog,
     pingPong,
     portfolio,

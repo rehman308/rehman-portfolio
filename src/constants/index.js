@@ -26,6 +26,7 @@ import {
     eventMng,
     gasLeak,
     hospitalMng,
+    investmentCal,
     photoBlog,
     pingPong,
     portfolio,
@@ -222,7 +223,7 @@ export const projects = [
     {
         name: "Tic Tac Toe",
         description:
-            "A Tic-Tac-Toe game built with React with realtime log for tracking moves.",
+            "A Tic-Tac-Toe game built with React with realtime log for tracking moves",
         tags: [
             {
                 name: "HTML",
@@ -245,9 +246,34 @@ export const projects = [
         link: "https://github.com/rehman308/react-tic-tac-toe",
     },
     {
+        name: "Investment Calculator",
+        description:
+            "An investment calculator built with React. It allows users to calculate their investment",
+        tags: [
+            {
+                name: "HTML",
+                color: "bg-[#F16529]",
+            },
+            {
+                name: "CSS",
+                color: "bg-[#2965F1]",
+            },
+            {
+                name: "JS",
+                color: "bg-[#F7DF1E] text-black",
+            },
+            {
+                name: "React",
+                color: "bg-[#00bbf9]",
+            },
+        ],
+        image: investmentCal,
+        link: "https://github.com/rehman308/investment-calc",
+    },
+    {
         name: "Picture Blog",
         description:
-            "A responsive photo blog built with HTML, CSS, and Font Awesome for icons, showcasing categories, featured images, and stylish transitions.",
+            "A responsive photo blog built with HTML, CSS, and Font Awesome for icons, showcasing categories, featured images, and stylish transitions",
         tags: [
             {
                 name: "HTML",
@@ -323,7 +349,7 @@ export const projects = [
     {
         name: "Price Tier Page",
         description:
-            "A simple and visually appealing Price List webpage to showcase different tiers of a service along with their features and pricing.",
+            "A simple and visually appealing Price List webpage to showcase different tiers of a service along with their features and pricing",
         tags: [
             {
                 name: "HTML",
@@ -361,7 +387,7 @@ export const projects = [
     {
         name: "Gas Leak Detector",
         description:
-            "Developed a gas leak and fire hazard detection system using MQ-2 sensor, 555 timer, and thermistor to trigger alarms and LEDs for early warnings.",
+            "Developed a gas leak and fire hazard detection system using MQ-2 sensor, 555 timer, and thermistor to trigger alarms and LEDs for early warnings",
         tags: [
             {
                 name: "Hardware",
