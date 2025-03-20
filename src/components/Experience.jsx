@@ -43,11 +43,11 @@ function ExperienceCard({ experience, isSmallScreen }) {
                 </ul>
 
                 {/* Link to GitHub for the project */}
-                <a
-                    href={experience.link}
-                    className="p-2 md:text-xl text-emerald-100 bg-emerald-700 border border-emerald-300 rounded-md hover:bg-emerald-900 transition duration-200">
-                    Checkout on Github
-                </a>
+                {/*<a*/}
+                {/*    href={experience.link}*/}
+                {/*    className="p-2 md:text-xl text-emerald-100 bg-emerald-700 border border-emerald-300 rounded-md hover:bg-emerald-900 transition duration-200">*/}
+                {/*    Checkout on Github*/}
+                {/*</a>*/}
             </div>
 
             {/* Experience Image */}

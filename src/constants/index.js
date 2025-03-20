@@ -32,6 +32,7 @@ import {
     portfolio,
     priceTier,
     ticTacToe,
+    timerGame,
     yelpCamp,
 } from "../assets";
 
@@ -244,6 +245,31 @@ export const projects = [
         ],
         image: ticTacToe,
         link: "https://github.com/rehman308/react-tic-tac-toe",
+    },
+    {
+        name: "Countdown Game",
+        description:
+            "A timer countdown challenge game made with react",
+        tags: [
+            {
+                name: "HTML",
+                color: "bg-[#F16529]",
+            },
+            {
+                name: "CSS",
+                color: "bg-[#2965F1]",
+            },
+            {
+                name: "JS",
+                color: "bg-[#F7DF1E] text-black",
+            },
+            {
+                name: "React",
+                color: "bg-[#00bbf9]",
+            },
+        ],
+        image: timerGame,
+        link: "https://github.com/rehman308/timer-game",
     },
     {
         name: "Investment Calculator",

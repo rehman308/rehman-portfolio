@@ -1,4 +1,6 @@
 # Personal Added
+.idea
+.DS_Store
 git-ignore
 
 # Logs
