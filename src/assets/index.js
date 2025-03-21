@@ -10,14 +10,15 @@ import ecom from "./projects/ecom.png";
 import eventMng from "./projects/eventMng.png";
 import gasLeak from "./projects/gas-leak.png";
 import hospitalMng from "./projects/hospitalMng.png";
-import investmentCal from "./projects/investment-cal.png"
+import investmentCal from "./projects/investment-cal.png";
 import photoBlog from "./projects/photoBlog.png";
 import pingPong from "./projects/pingPong.png";
 import priceTier from "./projects/priceTier.png";
-import yelpCamp from "./projects/yelpCamp.jpg";
 import portfolio from "./projects/portfolio.png";
-import ticTacToe from "./projects/tic-tac-toe.png"
+import taskKeeper from "./projects/task-keeper.png";
+import ticTacToe from "./projects/tic-tac-toe.png";
 import timerGame from "./projects/timer-game.png";
+import yelpCamp from "./projects/yelpCamp.jpg";
 
 // Robot Animations
 import robot_blank from "./robot/robot_blank.mp4";
@@ -98,6 +99,7 @@ export {
     pingPong,
     portfolio,
     priceTier,
+    taskKeeper,
     ticTacToe,
     timerGame,
     yelpCamp,

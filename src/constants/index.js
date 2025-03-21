@@ -31,6 +31,7 @@ import {
     pingPong,
     portfolio,
     priceTier,
+    taskKeeper,
     ticTacToe,
     timerGame,
     yelpCamp,
@@ -248,8 +249,7 @@ export const projects = [
     },
     {
         name: "Countdown Game",
-        description:
-            "A timer countdown challenge game made with react",
+        description: "A timer countdown challenge game made with react",
         tags: [
             {
                 name: "HTML",
@@ -272,6 +272,35 @@ export const projects = [
         link: "https://github.com/rehman308/timer-game",
     },
     {
+        name: "Project Task Keeper",
+        description:
+            "A React-based project task manager that allows users to create, manage, and track tasks of projects",
+        tags: [
+            {
+                name: "HTML",
+                color: "bg-[#F16529]",
+            },
+            {
+                name: "CSS",
+                color: "bg-[#2965F1]",
+            },
+            {
+                name: "JS",
+                color: "bg-[#F7DF1E] text-black",
+            },
+            {
+                name: "React",
+                color: "bg-[#00bbf9]",
+            },
+            {
+                name: "Tailwind",
+                color: "bg-[#1ebcbb]",
+            },
+        ],
+        image: taskKeeper,
+        link: "https://github.com/rehman308/task-keeper",
+    },
+    {
         name: "Investment Calculator",
         description:
             "An investment calculator built with React. It allows users to calculate their investment",
@@ -289,8 +318,8 @@ export const projects = [
                 color: "bg-[#F7DF1E] text-black",
             },
             {
-                name: "React",
-                color: "bg-[#00bbf9]",
+                name: "Tailwind",
+                color: "bg-[#1ebcbb]",
             },
         ],
         image: investmentCal,
