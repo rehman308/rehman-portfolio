@@ -2,6 +2,8 @@
 .idea
 .DS_Store
 git-ignore
+.prettierignore
+.prettierrc
 
 # Logs
 logs
